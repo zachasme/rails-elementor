@@ -1,0 +1,26 @@
+<div
+  data-controller="editor"
+  data-editor-selected-heading-outlet=".selected-heading"
+>
+  <%= render "flex" %>
+
+  <%= render "heading" %>
+
+  <div data-target="workbench">
+
+    <!-- WORKBENCH START -->
+
+    <div>
+      <h1 class="heading" data-action="click->editor#select">Enter your heading</h1>
+    </div>
+
+    <div style="display:flex" data-action="click->editor#select">
+      <p>1</p>
+      <p>2</p>
+      <p>3</p>
+    </div>
+
+    <!-- WORKBENCH END -->
+
+  </div>
+</div>

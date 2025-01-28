@@ -1,0 +1,28 @@
+<h2>Flex</h2>
+
+<fieldset>
+  <legend>Style</legend>
+  <input data-action="editor#setProperty" type="color" name="background-color" />
+</fieldset>
+
+<fieldset>
+  <legend>Flex Direction</legend>
+  <label><input data-action="editor#setProperty" type="radio" name="flex-direction" value="row"> Row</label>
+  <label><input data-action="editor#setProperty" type="radio" name="flex-direction" value="column"> Column</label>
+</fieldset>
+
+<fieldset>
+  <legend>Justify content</legend>
+  <label><input data-action="editor#setProperty" type="radio" name="justify-content" value="flex-start"> Start</label>
+  <label><input data-action="editor#setProperty" type="radio" name="justify-content" value="center"> Center</label>
+  <label><input data-action="editor#setProperty" type="radio" name="justify-content" value="flex-end"> End</label>
+  <label><input data-action="editor#setProperty" type="radio" name="justify-content" value="space-between"> Space between</label>
+  <label><input data-action="editor#setProperty" type="radio" name="justify-content" value="space-around"> Space around</label>
+  <label><input data-action="editor#setProperty" type="radio" name="justify-content" value="space-evenly"> Space evenly</label>
+</fieldset>
+
+<fieldset>
+  <legend>Gaps</legend>
+  <label>Row    <input type="text" data-action="editor#setProperty" name="row-gap"></label>
+  <label>Column <input type="text" data-action="editor#setProperty" name="column-gap"></label>
+</fieldset>
